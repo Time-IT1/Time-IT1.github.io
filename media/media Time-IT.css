@@ -1,0 +1,329 @@
+@media only screen and (max-width: 1366px) {
+	
+	#menu {
+		margin-left: 4%;
+		margin-top: 1.5%;
+		float: left;
+	}
+	
+	.minu {
+		display: none;
+	}
+	
+	#menu li {
+		float: left;
+		list-style: none;
+		width: 177px;
+		text-align: center;
+	}
+	
+
+}
+
+
+@media only screen and (max-width: 1348px) {
+	
+	#menu {
+		margin-left: 3%;
+		margin-top: 2.5%;
+		float: left;
+	}
+	
+	.minu {
+		display: none;
+	}
+	
+	#menu li {
+		float: left;
+		list-style: none;
+		width: 177px;
+		text-align: center;
+	}
+
+
+}
+
+@media only screen and (max-width: 1280px) {
+	
+	#menu {
+		margin-left: 3%;
+		margin-top: 1.5%;
+		float: left;
+	}
+	
+	.minu {
+		display: none;
+	}
+	
+	#menu li {
+		float: left;
+		list-style: none;
+		width: 171px;
+		text-align: center;
+	}
+	
+
+}
+
+@media only screen and (max-width: 1084px) {
+	
+	#menu {
+		margin-left: 2%;
+		margin-top: 2%;
+		float: left;
+	}
+	
+	.minu {
+		display: none;
+	}
+
+	#menu li {
+		float: left;
+		list-style: none;
+		width: 129px;
+		text-align: center;
+	}
+
+}
+
+@media only screen and (max-width: 1000px) {
+	
+	#menu {
+		margin-left: 3%;
+		margin-top: 2.5%;
+		float: left;
+	}
+	
+	.minu {
+		display: none;
+	}
+	
+	#menu li {
+		float: left;
+		list-style: none;
+		width: 115px;
+		text-align: center;
+	}
+
+}
+
+@media only screen and (max-width: 900px) {
+	
+	#menu {
+		margin-left: 3%;
+		margin-top: 2.5%;
+		float: left;
+	}
+	
+	.minu {
+		display: none;
+	}
+	
+	#menu li {
+		float: left;
+		list-style: none;
+		width: 101px;
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 800px) {
+
+		#menu {
+		display: none;
+	}
+	
+	.minu {
+		display: block;
+		float: right;
+		margin-top: 3%;
+		margin-right: 2%;
+	}
+	
+	.contentBlock {
+		width: 80%;
+		float: left;
+		margin-left: 10%;
+	}
+
+}
+
+@media screen and (max-width: 790px) {
+
+		#menu {
+		display: none;
+	}
+	
+	.minu {
+		display: block;
+		float: right;
+		margin-top: 3.5%;
+		margin-right: 2%;
+	}
+	
+	.contentBlock {
+		width: 80%;
+		float: left;
+		margin-left: 10%;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+
+		#menu {
+		display: none;
+	}
+	
+	.minu {
+		display: block;
+		float: right;
+		margin-top: 4%;
+		margin-right: 2%;
+	}
+	
+	.contentBlock {
+		width: 80%;
+		float: left;
+		margin-left: 10%;
+	}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+	#menu {
+		display: none;
+	}
+	
+	.minu {
+		display: block;
+		float: right;
+		margin-top: 4%;
+		margin-right: 2%;
+	}
+	
+	.wrapper {
+		border-radius: 0px;
+		margin-top: 0%;
+		margin-bottom: 0%;
+		width: 100%;
+		min-height: 100%;
+		margin-left: 0%;
+		margin-right: 0%;
+		float: left;
+		background-color: #f5f5f5;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		min-height: 100%;
+		display: table;
+	}
+	
+	.contentBlock {
+		width: 90%;
+		float: left;
+		margin-left: 5%;
+	}
+
+}
+
+@media only screen and (max-width: 384px) {
+
+	#menu {
+		display: none;
+	}
+	
+	.minu {
+		display: block;
+		float: right;
+		margin-top: 5%;
+		margin-right: 2%;
+	}
+	
+	.wrapper {
+		border-radius: 0px;
+		margin-top: 0%;
+		margin-bottom: 0%;
+		width: 100%;
+		min-height: 100%;
+		margin-left: 0%;
+		margin-right: 0%;
+		float: left;
+		background-color: #f5f5f5;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		min-height: 100%;
+		display: table;
+	}
+	
+	.contentBlock {
+		width: 90%;
+		float: left;
+		margin-left: 5%;
+	}
+
+}
+
+@media only screen and (max-width: 360px) {
+
+	#menu {
+		display: none;
+	}
+	
+	.minu {
+		display: block;
+		float: right;
+		margin-top: 6%;
+		margin-right: 2%;
+	}
+	
+	.wrapper {
+		border-radius: 0px;
+		margin-top: 0%;
+		margin-bottom: 0%;
+		width: 100%;
+		min-height: 100%;
+		margin-left: 0%;
+		margin-right: 0%;
+		float: left;
+		background-color: #f5f5f5;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		min-height: 100%;
+		display: table;
+	}
+	
+	.contentBlock {
+		width: 90%;
+		float: left;
+		margin-left: 5%;
+	}
+
+}
+
+@media only screen and (max-width: 320px) {
+	
+		#menu {
+		display: none;
+	}
+	
+	.minu {
+		display: block;
+		float: right;
+		margin-top: 6%;
+		margin-right: 2%;
+	}
+
+	.TimeIT {
+		margin-top: 2%;
+		font-size: 2.5em;
+	}
+
+	.ITimg {
+		height: 61px;
+		margin-top: 2%;
+	}
+
+}
+

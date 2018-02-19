@@ -1,0 +1,343 @@
+@charset "UTF-8";
+
+* {
+	outline: 0!important;
+	margin: 0;
+	padding: 0;
+	font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; /* 'Source Sans Pro',sans-serif */ 
+}
+
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-image: url('../image/twitter_bg_evernote2.png'); 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.wrapper {
+	/* border: 1px solid silver; */
+	border-radius: 15px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 75%;
+	min-height: 100%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	float: left;
+	background-color: #f5f5f5;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	min-height: 100%;
+	display: table;
+}
+
+.not-footer {
+	width: 99%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	min-height: 100%;
+}
+
+header, .content, footer {
+	display: table-row;
+}
+
+header, footer {
+	height: 1px;
+}
+
+/*header*/
+
+header {
+	border-bottom: 1px solid #7DBB49;
+	display: block;
+	height: 80px;
+	margin-bottom: 2%;
+}
+
+.TimeIT {
+	border: 1px solid slver;
+	float: left;
+	font-size: 3em;
+	color: #7DBB49;
+	margin-left: 2%;
+}
+
+.ITimg {
+	float: left;
+	max-width: 100%;
+	height: 70px;  
+	margin-top: 0%;
+	border-radius: 15px;
+	width: auto\9;
+}
+
+
+/*Выпадающее миню*/
+
+#menu {
+	margin-left: 4%;
+	margin-top: 1.5%;
+	float: left;
+}
+
+#menu ul {
+	font: 14px Arial;
+	display: inline-table;
+	position: relative;
+}
+
+#menu li {
+	float: left;
+	list-style: none;
+	width: 140px;
+	text-align: center;
+}
+
+#menu li a {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	background: #7DBB49;
+	padding: 10px;
+	border-bottom: 2px solid #f5f5f5;
+	transition: all 0.6s ease;
+}
+
+#menu li a:hover {
+	color: #F5F5F5;
+	background: #157407;
+	transition: all 0.4s ease;
+}
+
+#menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	transition: all 0.6s ease;
+}
+
+#menu ul ul li {
+	float: none;
+	position: relative;
+}
+
+#menu ul ul ul {
+	position: absolute;
+	top: 0;
+	left: 100%;
+}
+
+#menu ul li:hover > ul {
+	display: block;
+	transition: all 0.4s ease;
+}
+
+
+/*Адаптируемая часть*/
+
+.minu {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+	float: left;
+	cursor: pointer;
+	/* background-color: #7DBB49; */
+	color: #f5f5f5;
+	transition: all 0.6s ease;
+}
+
+.minu:hover {
+	color: #F5F5F5;
+/* 	background: #157407; */
+	transition: all 0.4s ease;
+}
+
+.icon-menu2 {
+	display: none;
+}
+
+.open_minu {
+	padding: 10px;
+	width: 89%;
+	min-height: 10px;
+	text-align: center;
+	float: left;
+	display: none;
+}
+
+.punkt {
+	width: 100%;
+	border-top: 1px solid #7DBB49;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	float: left;
+	text-align: center;
+	color: #000;
+	cursor: pointer;
+	transition: all 0.6s ease;
+}
+
+.punkt:hover {
+	color: #F5F5F5;
+	background: #157407;
+	transition: all 0.4s ease;
+}
+
+.block_punkt {
+	background-color: #E6E6E6;
+	float: left;
+	width: 100%;
+	color: #000;
+	display: none;
+}
+
+.img_menu {
+	margin-top: 2%;
+	float: right;
+	margin-right: 2%;
+}
+
+.img_menu2 {
+	margin-top: 2%;
+	float: right;
+	margin-right: 2%;
+	display: none;
+}
+
+.href {
+	text-decoration: none;
+}
+
+/*content*/
+
+.contentBlock {
+	/* border: 1px solid silver; */
+	width: 70%;
+	float: left;
+	margin-left: 15%;
+}
+
+/*Pascal*/
+
+.PascalOl {
+	width: 100%;
+	margin-left: 2.5%;
+	margin-top: 2%;
+}
+
+.Pascalolli {
+	
+}
+
+.PascalOla {
+	color: #7DBB49;
+}
+
+.Pascalb {
+	/* font-size: 1.5em; */
+	color: #7DBB49;
+	display: block;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	text-align: center;
+}
+
+.PascalImg {
+	width: 100%;
+	min-height: 280px;
+	max-height: 300px;
+	width: auto\9;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.structureb {
+	font-size: 1.3em;
+}
+
+.program {
+	width: 99%;
+	background-color: #D2D2D2;
+	padding-left: 1%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+
+.program_html {
+	width: 99%;
+	background-color: #D2D2D2;
+	padding-left: 1%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+
+/*Пример из курса CSS*/
+
+.p {
+	color: #7DBB49;
+	font-size: 1.5em;
+}
+
+#b {
+	color: #7DBB49;
+	font-size: 1.5em;
+	margin-left: 5%;
+}
+
+.i {
+	color: #7DBB49;
+	font-size: 1.5em;
+	margin-right: 5%;
+}
+
+/*кнопка вверх*/
+
+.top_button {
+	position: fixed;
+	bottom: 2%;
+	right: 3.5%;
+	border-radius: 50%;
+	z-index: 100;
+	opacity: 0.7;
+	display: none;
+	transition: all 0.6s ease;
+}
+
+.top_button:hover {
+	opacity: 1;
+	transition: all 0.4s ease;
+}
+
+/*footer*/
+
+footer {
+	border-top: 1px solid #7DBB49;
+	min-height: 80px;
+	width: 99%;
+	float: left;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-top: 2%;
+	text-align: center;
+}
+
+.footer {
+	/* border: 1px solid silver; */
+}
+
+.footericon {
+	margin-top: 1%;
+}
+
+.follow {
+	
+}
